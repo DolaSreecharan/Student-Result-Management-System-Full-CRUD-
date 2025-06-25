@@ -18,6 +18,25 @@ A terminal-based Python + MySQL to manage student records with full CRUD support
 - MySQL
 - CSV module
 
+## 📂 Files Included
+
+- `student_result_system.py` – main project file  
+- `student.csv` – sample exported file  
+- `README.md` – project documentation  
+
+## 🧠 CRUD Operations
+
+| Operation | Description         |
+|-----------|---------------------|
+| Create    | Add new student     |
+| Read      | View result/data    |
+| Update    | Modify marks/ID/name |
+| Delete    | Remove student data |
+
+## 🏆 Author
+
+Built by **Sree Charan**
+
 ## 🚀 How to Run
 
 1. Make sure MySQL server is running.
@@ -29,3 +48,9 @@ conn = mysql.connector.connect(
     password="your_password",
     database="your_database"
 )
+```
+3. Run the script:
+```python
+python student_result_system.py
+```
+
